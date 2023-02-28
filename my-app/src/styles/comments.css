@@ -1,0 +1,48 @@
+.well{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px 0;
+}
+
+.well:last-child {
+    margin-bottom: 0%;
+}
+
+.head{
+    margin: 0;
+    padding: 0;
+}
+
+.user{
+    margin-left: 10px;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.comment {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+    font-size: medium;
+}
+
+.commentPanel {
+    margin-top: 42em;
+}
+
+div[contentEditable]{
+    background-color: white;
+    border: 1px solid black;
+    max-height: 75px;
+    overflow: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .commentPanel {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+   
+}
